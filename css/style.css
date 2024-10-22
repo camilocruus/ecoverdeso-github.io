@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color:black
+    margin: 0;
+}
+header {
+    background-color: darkseagreen;
+    color: #ecf0f1;
+    padding: 15px;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #099bdf;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+nav ul li a:hover {
+    color: crimson;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+main h3 {
+    color: darkgreen;
+    font-size: 2em;
+    margin-top: 0;
+}
+main h4 {
+    color: black;
+    font-size: 1em;
+    margin-top: 0;
+}
+main p {
+    font-size: 1.2em;
+}
+footer {
+    background-color: darkseagreen;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 4px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: darkseagreen;
+}
+th, td {
+padding: 5px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #099bdf;
+    color: whitesmoke;
+}
+tr:hover {
+    background-color: darkgreen;
+}
